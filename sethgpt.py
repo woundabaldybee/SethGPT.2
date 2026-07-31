@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Python in HTML</title>
-    <!-- Link the PyScript core JavaScript -->
-    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
-</head>
-<body>
-
-    <h1>Running Python in HTML</h1>
-    
-    <!-- Write your Python code here -->
-    <script type="py">
-         
 print("Enter your name..")
 name = input()
 print('Hello ' + name + ', Welcome to SETHGPT')
@@ -67,8 +52,3 @@ while True:
         print('Type something else stupid')
     else:
         print("Bot: Sorry I cannot fulfill this request..")
-    </script>
-
-</body>
-</html>
-
